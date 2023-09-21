@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font: 1em sans-serif;
+    max-width: 1800px;
+   
+}
+.content{
+    position: absolute;
+     inset: 0;
+     text-align: center;
+     align-items: center;
+     display: grid;
+     
+  } 
+.img{
+    width: 9.25rem;
+    height: 2.5rem;
+    display: block;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    margin-left: 7.5rem;
+    padding: 24px 48px;
+    width: 100%;
+    z-index:4; 
+    box-sizing: border-box;
+}
+.controls{
+    padding-top: 2.1%; 
+    text-align:center;
+}
+.language{
+    padding: 6px 36px;
+    font-size: 1rem;
+    font-weight:400;
+    border-radius:0.25em ;
+    background-color: transparent;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    color: inherit;
+}
+.button{
+    background-color: rgb(229,9,20);
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    border-radius: 0.25em;
+    padding: 9px 10px;
+}
+.splash{
+    opacity: .6;
+    position: relative;
+    background-size: cover;
+    
+}
+.gradient{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
+    position: absolute;
+    inset: 0;
+}  
+.img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size:cover;
+   
+}
+.content{
+    position: absolute;
+     inset: 0;
+     text-align: center;
+     align-items: center;
+     display: grid;
+}
+.content h1{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+    font-size: 3rem;
+    font-weight: bolder;
+   }
+   .content h2{
+    margin-bottom:29px ;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.content h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+}  
+.add{
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius:0.25em ; 
+    padding: 1.5rem 1rem 0.5rem;
+    color: inherit;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+    
+   }
+   .b{
+   background-color: rgb(229,9,20);
+   color: #fff;
+   border-radius:0.25em ;
+   font-size: 1.625rem;
+   border: 0;
+   font-family: inherit;
+    cursor: pointer;
+    fill: currentcolor;
+   font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    display: inline-flex;
+}
+section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 35px;
+    align-items: center;
+    border-top:8px solid #222 ;
+   }
+   section .texts h1{
+    font-size: 3rem;
+    margin-bottom: 8px;
+   }
+   section .texts p{
+    font-size: 1.625rem;
+    font-weight: 400; 
+   }
+   .media{
+    position: relative;
+   }
+   .media.s1 img{
+    width:  300px;
+   }
+   section:nth-child(odd) .texts{
+    order: 2;
+    }
+   .media.s3 img{
+    width: 600px;
+   }   
+   .end{
+    border-bottom:8px solid #222;}
+    .faq{
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+        padding: 3.5rem 0 
+    }
+    .main{
+    padding: 70px 30px;
+    border-bottom: 8px solid #222;
+    }
+    .questions{
+        max-width: 635px;
+        margin: 0 auto;
+        font-size: 1.620rem;
+      }
+      .question{
+        position: relative;
+        background-color: #303030;
+      }
+      .question div.head{
+        padding:20px 30px ;
+        border-bottom: 4px solid #000;
+        cursor:pointer;
+      }
+    .question:hover{
+     background-color: #222;
+      }
+      .footer{
+        max-width: 70%;
+        margin:10rem ;
+        margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+        
+      }
+      .footer p{
+        margin-bottom: 1.5rem;
+      }
+    
+    .footer a{
+        color: #999;
+        font-size: 0.9rem;
+       
+    }
+    .footer .footer-cols{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:2rem;    
+    }
+    ul{
+        list-style-type:none;
+    }
+    li{
+        line-height: 2.4;
+    }
+    .net{
+        margin-top: 10%;
+        color: #999;
+        font-size: 0.9rem; 
+    }
+    .c{
+        margin-top: 2%;
+        text-align: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
